@@ -1,0 +1,22 @@
+HealthChat
+
+Overview
+
+HealthChat is a project that leverages web scraping, natural language processing, and LLM to provide users with insights into health-related symptoms and their causes. By collecting and processing data from various health-related websites, this tool enables users to ask questions about their symptoms and receive relevant, accurate responses.
+
+Project Structure
+
+1. Data Scraping
+Data Sources: Collected data from multiple health websites to ensure a comprehensive understanding of symptoms and their potential causes.
+Scraping Method: Utilized Scrapy to extract relevant information efficiently.
+2. Data Processing
+Chunking: The scraped data was organized into manageable chunks to facilitate easier analysis and querying.
+Storage: All processed data was saved into a CSV file named chunk.csv, which serves as a structured repository of symptoms and causes.
+3. Snowflake Integration
+Data Upload: The chunk.csv file was uploaded to Snowflake, a cloud-based data warehousing solution, allowing for scalable data management.
+Embedding Creation:
+Employed the e5-base-v2 model from Snowflake Cortex to generate embeddings for the symptom-related data.
+Used the function snowflake.cortex.embed_text_768('snowflake-arctic-embed-m') for vector cosine similarity, enabling efficient similarity searches.
+4. Question Answering with LLAMA2
+Model Selection: Utilized the LLAMA2 70B Chat model to provide responses to user queries about symptoms.
+Functionality: The model is designed to interpret user questions and deliver accurate answers based on the previously processed data.

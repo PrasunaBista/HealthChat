@@ -1,0 +1,5 @@
+streamlit
+requests
+pre-commit
+snowflake-connector-python
+snowflake-snowpark-python

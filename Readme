@@ -2,7 +2,7 @@ HealthChat
 
 Overview
 
-HealthChat is a project that leverages web scraping, natural language processing, and LLM to provide users with insights into health-related symptoms and their causes. By collecting and processing data from various health-related websites, this tool enables users to ask questions about their symptoms and receive relevant, accurate responses.
+HealthChat is a personal project that I built , it leverages web scraping, natural language processing, and LLM to provide users with insights into health-related symptoms and their causes. By collecting and processing data from various health-related websites, this tool enables users to ask questions about their symptoms and receive relevant, accurate responses.
 
 Project Structure
 

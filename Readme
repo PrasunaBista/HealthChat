@@ -19,4 +19,4 @@ Employed the e5-base-v2 model from Snowflake Cortex to generate embeddings for t
 Used the function snowflake.cortex.embed_text_768('snowflake-arctic-embed-m') for vector cosine similarity, enabling efficient similarity searches.
 4. Question Answering with LLAMA2
 Model Selection: Utilized the LLAMA2 70B Chat model to provide responses to user queries about symptoms.
-Functionality: The model is designed to interpret user questions and deliver accurate answers based on the previously processed data.
+Functionality: The model is designed to interpret user questions and deliver accurate answers based on the data.

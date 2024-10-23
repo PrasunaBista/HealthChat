@@ -7,8 +7,8 @@ HealthChat is a personal project that I built , it leverages web scraping, natur
 Project Structure
 
 1. Data Scraping
-Data Sources: Collected data from multiple health websites to ensure a comprehensive understanding of symptoms and their potential causes.
-Scraping Method: Utilized Scrapy to extract relevant information efficiently.
+Data Sources: Scrapped data from multiple health websites to ensure a comprehensive understanding of symptoms and their potential causes.
+
 2. Data Processing
 Chunking: The scraped data was organized into manageable chunks to facilitate easier analysis and querying.
 Storage: All processed data was saved into a CSV file named chunk.csv, which serves as a structured repository of symptoms and causes.
